@@ -1,0 +1,144 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sangeevuvic.github.io/Demo2/manifests/manifest-demo.json",
+  "@type" : "sc:Manifest",
+  "label" : "IIIF Workshop Demo",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://40b0869a-a4e1-4470-9cb1-bec90f13c3c6",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://1535bca0-58bb-4f57-9356-c9a1e561281e",
+      "@type" : "sc:Canvas",
+      "label" : "Map of BC",
+      "height" : 9992,
+      "width" : 8456,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://753bd7de-630e-4e03-b188-73a3028ae4cb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://collections.library.yale.edu/iiif/2/15536977/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://collections.library.yale.edu/iiif/2/15536977",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 84492352,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 9992,
+          "width" : 8456
+        },
+        "on" : "http://1535bca0-58bb-4f57-9356-c9a1e561281e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cbdd1271-332b-4014-a12f-1900b3a40580",
+      "@type" : "sc:Canvas",
+      "label" : "Big Horn Sheep Slide",
+      "height" : 1076,
+      "width" : 1571,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://88bec826-f821-4523-b32a-51d153d8454f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://sangeevuvic.github.io/Demo2/images/Bighornsheep/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://sangeevuvic.github.io/Demo2/images/Bighornsheep",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1076,
+          "width" : 1571
+        },
+        "on" : "http://cbdd1271-332b-4014-a12f-1900b3a40580"
+      } ],
+      "related" : [ "50.13308, -119.50238 https://vault.library.uvic.ca/concern/generic_works/924b58e7-10db-4a0f-8e10-9b4911d2daa5?locale=en", {
+        "@id" : "https://vault.library.uvic.ca/concern/generic_works/924b58e7-10db-4a0f-8e10-9b4911d2daa5?locale=en",
+        "label" : "",
+        "format" : ""
+      } ]
+    }, {
+      "@id" : "http://a5c87874-c0a9-419a-afed-d6f58fa88d2e",
+      "@type" : "sc:Canvas",
+      "label" : "Black Bear Vermillion Crossing",
+      "height" : 1468,
+      "width" : 2084,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7114c820-b375-4437-993d-1c4f74bfb798",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://sangeevuvic.github.io/Demo2/images/9578_Cowan_PH_011/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://sangeevuvic.github.io/Demo2/images/9578_Cowan_PH_011",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1468,
+          "width" : 2084
+        },
+        "on" : "http://a5c87874-c0a9-419a-afed-d6f58fa88d2e"
+      } ],
+      "related" : [ "51.0333, -115.98543", {
+        "@id" : "https://vault.library.uvic.ca/concern/generic_works/02bec114-1d15-43e0-b6dc-299b24b05533?locale=en",
+        "label" : "",
+        "format" : ""
+      }, null, null, null, "51.0333, -115.98543" ]
+    }, {
+      "@id" : "http://10042498-0627-4cc2-aaad-0800952be039",
+      "@type" : "sc:Canvas",
+      "label" : "White-footed Goose",
+      "height" : 2143,
+      "width" : 1887,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8032585b-8256-4fc7-9a9a-76bf8c3994f5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://sangeevuvic.github.io/Demo2/images/Whitegoose/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://sangeevuvic.github.io/Demo2/images/Whitegoose",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2143,
+          "width" : 1887
+        },
+        "on" : "http://10042498-0627-4cc2-aaad-0800952be039"
+      } ],
+      "related" : [ {
+        "@id" : "",
+        "label" : "49.23297, -122.76932",
+        "format" : ""
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
