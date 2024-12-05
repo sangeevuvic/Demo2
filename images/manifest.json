@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://sangeevuvic.github.io/Demo2/images/Whitegoose/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Whitegoose"
+                ]
+            },
+            "height": 2143,
+            "width": 1887,
+            "items": [
+                {
+                    "id": "https://sangeevuvic.github.io/Demo2/images/Whitegoose/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://sangeevuvic.github.io/Demo2/images/Whitegoose/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://sangeevuvic.github.io/Demo2/images/Whitegoose/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 59,
+                                                "height": 67
+                                            },
+                                            {
+                                                "width": 118,
+                                                "height": 134
+                                            },
+                                            {
+                                                "width": 236,
+                                                "height": 268
+                                            },
+                                            {
+                                                "width": 472,
+                                                "height": 536
+                                            },
+                                            {
+                                                "width": 944,
+                                                "height": 1072
+                                            },
+                                            {
+                                                "width": 1887,
+                                                "height": 2143
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1887,
+                                        "@id": "https://sangeevuvic.github.io/Demo2/images/Whitegoose",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2143,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://sangeevuvic.github.io/Demo2/images/Whitegoose/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://sangeevuvic.github.io/Demo2/images/9578_Cowan_PH_011/canvas/",
             "type": "Canvas",
             "label": {
