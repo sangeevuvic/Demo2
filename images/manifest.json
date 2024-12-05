@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://sangeevuvic.github.io/Demo2/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in sangeevuvic/Demo2 project"
+        ]
+    },
+    "items": []
+}
