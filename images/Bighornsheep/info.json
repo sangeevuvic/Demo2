@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 50,
+    "height" : 34
+  }, {
+    "width" : 99,
+    "height" : 68
+  }, {
+    "width" : 197,
+    "height" : 135
+  }, {
+    "width" : 393,
+    "height" : 269
+  }, {
+    "width" : 786,
+    "height" : 538
+  }, {
+    "width" : 1571,
+    "height" : 1076
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1571,
+  "@id" : "https://sangeevuvic.github.io/Demo2/images/Bighornsheep",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1076
+}
